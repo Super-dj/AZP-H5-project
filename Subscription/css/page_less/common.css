@@ -1,0 +1,86 @@
+/*
+  css交互渐变的通用方法
+*/
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.aLT {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.aRT {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.aLB {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.aRB {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.aLR {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.aTB {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+}
+.aC {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+.cover {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow: scroll;
+  background: #F3F3F3;
+  z-index: -1;
+}
+.bgW {
+  background: #ffffff;
+}
+img {
+  vertical-align: top;
+}
+button {
+  border-radius: 0;
+  background-color: #fff;
+}
+.button-hover {
+  color: #333333;
+  background: transparent;
+}
+button::after {
+  border: none;
+}
+input {
+  background: none;
+  outline: none;
+  border: 0;
+  color: #ffffff;
+}
+.cursorPointer {
+  cursor: pointer;
+}
+video {
+  object-fit: fill !important;
+}

@@ -1,0 +1,809 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+ol,
+ul,
+a {
+	text-decoration: none;
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+}
+input{
+	border: 0;
+	outline: none;
+}
+.fl_l{
+    float: left;
+}
+.fl_r{
+    float: right;
+}
+.clearfix:before,.clearfix:after{
+    display: table;
+    content: "";
+}
+.clearfix:after{
+    clear: both;
+}
+.loadmore{
+	display: none;
+}
+
+/*首页样式*/
+
+.mainIndex {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.mainIndex .picViews {
+	width: 100%;
+	height: 27%;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	/* Firefox 4 */
+	-webkit-transition: all 0.5s;
+	/* Safari 和 Chrome */
+	-o-transition: all 0.5s;
+	/* Opera */
+}
+
+.mainIndex .picViews .pics {
+	width: 300%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.mainIndex .picViews .pics .piclist {
+	width: 100%;
+	height: 100%;
+}
+
+.mainIndex .picViews .pics .piclist li {
+	float: left;
+	width: 33.33333333%;
+	height: 100%;
+}
+
+.mainIndex .picViews .pics .piclist li img {
+	width: 100%;
+	height: 100%;
+}
+
+.mainIndex .timeDiv {
+	width: 94%;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 3%;
+}
+
+.mainIndex .timeDiv div {
+	display: inline-block;
+}
+
+.mainIndex .timeDiv .rightTime {
+	float: right;
+}
+
+.mainIndex .timeDiv .rightTime .hour,
+.mainIndex .timeDiv .rightTime .minute,
+.mainIndex .timeDiv .rightTime .second {
+	height: 36px;
+	background-color: red;
+	color: #fff;
+	padding: 0px 3px;
+	margin-top: 2px;
+	line-height: 36px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.mainIndex .goodsDiv {
+	width: 98%;
+	height: 55%;
+	margin-left: 1%;
+	margin-top: 1%;
+	overflow-y: auto;
+}
+
+.mainIndex .goodsDiv .goods {
+	width: 100%;
+	height: 100px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+	background-color: #eee;
+}
+
+.mainIndex .goodsDiv .goods .title {
+	font-size: 15px;
+	margin-left: 10px;
+	margin-bottom: 2px;
+}
+
+.mainIndex .goodsDiv .goods .number div,
+.mainIndex .goodsDiv .goods .tips div {
+	width: 32%;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+}
+
+.mainIndex .footer {
+	width: 100%;
+	height: 45px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	border-top: 1px #eee solid;
+}
+
+.mainIndex .footer div {
+	display: inline-block;
+	line-height: 45px;
+	text-align: center;
+	width: 49%;
+	height: 45px;
+}
+
+.mainIndex .footer div a {
+	color: #000;
+}
+
+
+/*拼存详情页面样式*/
+
+.mainDetail {
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.mainDetail .productDiv {
+	width: 100%;
+	height: 100px;
+	background-color: #d7d7d7;
+	padding-top: 10px;
+}
+
+.mainDetail .productDiv div {
+	text-align: center;
+	font-size: 14px;
+}
+
+.mainDetail .productDiv .productName {
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.mainDetail .productDiv .productConditions {
+	margin-top: 15px;
+	width: 92%;
+	margin-left: 4%;
+}
+
+.mainDetail .productDiv .productConditions div {
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+}
+
+.mainDetail .productDescription {
+	width: 100%;
+	font-size: 15px;
+}
+
+.mainDetail .productDescription .title {
+	width: 100%;
+	line-height: 45px;
+	background-color: #f2f2f2;
+	text-align: center;
+	font-size: 15px;
+}
+
+.mainDetail .productDescription .interest,
+.mainDetail .productDescription .draw,
+.mainDetail .productDescription .partake {
+	width: 100%;
+}
+
+.mainDetail .productDescription .interest .interestTitle,
+.mainDetail .productDescription .draw .interestTitle,
+.mainDetail .productDescription .partake .interestTitle,
+.mainDetail .productDescription .interest .drawTitle,
+.mainDetail .productDescription .draw .drawTitle,
+.mainDetail .productDescription .partake .drawTitle,
+.mainDetail .productDescription .interest .partakeTitle,
+.mainDetail .productDescription .draw .partakeTitle,
+.mainDetail .productDescription .partake .partakeTitle {
+	display: inline-block;
+	margin-left: 20px;
+	line-height: 25px;
+	position: relative;
+}
+
+.mainDetail .productDescription .interest .interestTitle:before,
+.mainDetail .productDescription .draw .interestTitle:before,
+.mainDetail .productDescription .partake .interestTitle:before,
+.mainDetail .productDescription .interest .drawTitle:before,
+.mainDetail .productDescription .draw .drawTitle:before,
+.mainDetail .productDescription .partake .drawTitle:before,
+.mainDetail .productDescription .interest .partakeTitle:before,
+.mainDetail .productDescription .draw .partakeTitle:before,
+.mainDetail .productDescription .partake .partakeTitle:before {
+	content: " ";
+	width: 5px;
+	height: 15px;
+	background-color: #a7a7a7;
+	display: inline-block;
+	line-height: 25px;
+	position: absolute;
+	top: 5px;
+	left: -10px;
+}
+
+.mainDetail .productDescription .interest .interestCon,
+.mainDetail .productDescription .draw .interestCon,
+.mainDetail .productDescription .partake .interestCon,
+.mainDetail .productDescription .interest .drawCon,
+.mainDetail .productDescription .draw .drawCon,
+.mainDetail .productDescription .partake .drawCon,
+.mainDetail .productDescription .interest .partakeCon,
+.mainDetail .productDescription .draw .partakeCon,
+.mainDetail .productDescription .partake .partakeCon {
+	width: 90%;
+	padding: 10px 0;
+	margin-left: 5%;
+	line-height: 1.4em;
+}
+
+.mainDetail .button {
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+
+/*拼团认购样式*/
+
+body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.mainSub {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.mainSub .form {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+}
+
+.mainSub .form div {
+	width: 96%;
+	height: 50px;
+	margin: 5px auto;
+	line-height: 50px;
+	font-size: 16px;
+	border-bottom: 1px solid #eee;
+}
+
+.mainSub .form div input {
+	width: 50%;
+	border: none;
+	outline: none;
+	float: right;
+	height: 49px;
+	line-height: 50px;
+	text-align: left;
+}
+
+.mainSub .form .vcode .getVcode {
+	width: 100px;
+	height: 30px;
+	border: 2px solid green;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	margin-top: 8px;
+	font-size: 14px;
+}
+
+.mainSub .groupSum {
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: 230px;
+}
+
+.mainSub .groupSum .groupTitle {
+	margin-left: 7px;
+}
+
+.mainSub .groupSum .maxMoney {
+	position: absolute;
+	width: 100px;
+	right: 0px;
+	font-size: 14px;
+}
+
+.mainSub .btn {
+	width: 60%;
+	height: 45px;
+	background-color: red;
+	position: absolute;
+	bottom: 25%;
+	left: 20%;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 5px;
+}
+
+.mainSub .agreement {
+	width: 90%;
+	position: absolute;
+	bottom: 16%;
+	margin-left: 5%;
+	font-size: 13px;
+}
+
+
+/*邀请认购详情*/
+
+.mainDetail {
+	width: 100%;
+	margin-bottom: 50px;
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.mainDetail .form {
+	width: 100%;
+	height: auto;
+}
+
+.mainDetail .form div {
+	width: 94%;
+	height: 40px;
+	margin: 5px auto;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.mainDetail .form div input {
+	width: 65%;
+	border: none;
+	outline: none;
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	text-align: right;
+	margin-right: 15px;
+}
+
+.mainDetail .invitationBtn {
+	width: 70%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: red;
+	margin: 35px auto 10px;
+}
+
+.mainDetail .textTips {
+	width: 85%;
+	height: auto;
+	margin: 35px auto 5px;
+	font-size: 15px;
+}
+
+.mainDetail .textTips .tip {
+	width: 100%;
+	position: relative;
+	margin-left: 15px;
+	font-size: 14px;
+}
+
+.mainDetail .textTips .tip:before {
+	content: ' ';
+	width: 10px;
+	height: 10px;
+	background-color: #a7a7a7;
+	border-radius: 50%;
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	left: -15px;
+}
+
+
+/*分享页面样式*/
+
+.mainShare {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.mainShare .topBg {
+	width: 100%;
+	height: 45%;
+	position: relative;
+}
+
+.mainShare .topBg .topBg1 {
+	width: 100%;
+	height: 50%;
+	background-color: #666;
+	color: #fff;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.mainShare .topBg .topBg1 .rateTitle {
+	margin: 10px auto;
+}
+
+.mainShare .topBg .topBg1 .rateText {
+	width: 100%;
+}
+
+.mainShare .topBg .topBg1 .rateText div {
+	display: inline-block;
+	width: 45%;
+	font-size: 14px;
+}
+
+.mainShare .topBg .topBg1 .rateText .minMoney {
+	text-align: left;
+}
+
+.mainShare .topBg .topBg1 .rateText .term {
+	text-align: right;
+}
+
+.mainShare .topBg .topBg2 {
+	width: 100%;
+	height: 50%;
+	background-color: #ccc;
+}
+
+.mainShare .topBg .blankBox1 {
+	width: 90%;
+	height: 20%;
+	background-color: #fff;
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	border-radius: 10px;
+}
+
+.mainShare .topBg .blankBox1 .blankTips {
+	width: 96%;
+	font-size: 14px;
+	margin-left: 2%;
+	margin-top: 5px;
+}
+
+.mainShare .topBg .blankBox1 .blankTips div {
+	width: 48%;
+	display: inline-block;
+}
+
+.mainShare .topBg .blankBox1 .blankTips .maxMoney {
+	text-align: left;
+}
+
+.mainShare .topBg .blankBox1 .blankTips .Dvalue {
+	text-align: right;
+}
+
+.mainShare .topBg .blankBox2 {
+	width: 90%;
+	height: 34%;
+	background-color: #fff;
+	position: absolute;
+	top: 63%;
+	left: 5%;
+	border-radius: 10px;
+	padding-top: 10px;
+}
+
+.mainShare .topBg .blankBox2 .groupNum,
+.mainShare .topBg .blankBox2 .teamMem {
+	width: 96%;
+	margin-left: 2%;
+	margin-bottom: 10px;
+}
+
+.mainShare .topBg .blankBox2 .groupNum div,
+.mainShare .topBg .blankBox2 .teamMem div {
+	display: inline-block;
+}
+
+.mainShare .topBg .blankBox2 .groupNum .groupN,
+.mainShare .topBg .blankBox2 .teamMem .groupN,
+.mainShare .topBg .blankBox2 .groupNum .teamM,
+.mainShare .topBg .blankBox2 .teamMem .teamM {
+	float: right;
+}
+
+.mainShare .productDescription {
+	width: 100%;
+	height: 50%;
+	font-size: 15px;
+}
+
+.mainShare .productDescription .title {
+	width: 100%;
+	line-height: 45px;
+	background-color: #f2f2f2;
+	text-align: center;
+	font-size: 15px;
+}
+
+.mainShare .productDescription .interest,
+.mainShare .productDescription .draw,
+.mainShare .productDescription .partake {
+	width: 100%;
+	height: 30%;
+}
+
+.mainShare .productDescription .interest .interestTitle,
+.mainShare .productDescription .draw .interestTitle,
+.mainShare .productDescription .partake .interestTitle,
+.mainShare .productDescription .interest .drawTitle,
+.mainShare .productDescription .draw .drawTitle,
+.mainShare .productDescription .partake .drawTitle,
+.mainShare .productDescription .interest .partakeTitle,
+.mainShare .productDescription .draw .partakeTitle,
+.mainShare .productDescription .partake .partakeTitle {
+	display: inline-block;
+	margin-left: 20px;
+	line-height: 25px;
+	position: relative;
+}
+
+.mainShare .productDescription .interest .interestTitle:before,
+.mainShare .productDescription .draw .interestTitle:before,
+.mainShare .productDescription .partake .interestTitle:before,
+.mainShare .productDescription .interest .drawTitle:before,
+.mainShare .productDescription .draw .drawTitle:before,
+.mainShare .productDescription .partake .drawTitle:before,
+.mainShare .productDescription .interest .partakeTitle:before,
+.mainShare .productDescription .draw .partakeTitle:before,
+.mainShare .productDescription .partake .partakeTitle:before {
+	content: " ";
+	width: 5px;
+	height: 15px;
+	background-color: #a7a7a7;
+	display: inline-block;
+	line-height: 25px;
+	position: absolute;
+	top: 5px;
+	left: -10px;
+}
+
+.mainShare .productDescription .interest .interestCon,
+.mainShare .productDescription .draw .interestCon,
+.mainShare .productDescription .partake .interestCon,
+.mainShare .productDescription .interest .drawCon,
+.mainShare .productDescription .draw .drawCon,
+.mainShare .productDescription .partake .drawCon,
+.mainShare .productDescription .interest .partakeCon,
+.mainShare .productDescription .draw .partakeCon,
+.mainShare .productDescription .partake .partakeCon {
+	width: 90%;
+	height: 80%;
+	margin-left: 5%;
+}
+
+.mainShare .assembleBtn {
+	width: 100%;
+	height: 40px;
+	background-color: red;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	bottom: 0;
+}
+
+
+/*我的拼团*/
+
+.mainMy {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.mainMy .productList {
+	width: 100%;
+	height: 94%;
+	overflow: auto;
+}
+
+.mainMy .productList .products {
+	width: 100%;
+	height: auto;
+	margin-bottom: 7px;
+}
+
+.mainMy .productList .products .orderStatus {
+	width: 100%;
+	height: 30px;
+	background-color: #d7d7d7;
+}
+
+.mainMy .productList .products .orderStatus div {
+	display: inline-block;
+	line-height: 30px;
+}
+
+.mainMy .productList .products .orderStatus .orderN {
+	text-align: left;
+	margin-left: 10px;
+}
+
+.mainMy .productList .products .orderStatus .orderS {
+	float: right;
+	margin-right: 10px;
+}
+
+.mainMy .productList .products .productT {
+	width: 96%;
+	display: block;
+	margin-left: 2%;
+	font-size: 15px;
+	line-height: 45px;
+}
+
+.mainMy .productList .products .leftDiv,
+.mainMy .productList .products .centerDiv,
+.mainMy .productList .products .rightDiv {
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+}
+
+.mainMy .productList .products .leftDiv {
+	width: 30%;
+}
+
+.mainMy .productList .products .leftDiv .ratesN {
+	font-size: 20px;
+}
+
+.mainMy .productList .products .centerDiv {
+	width: 50%;
+	text-align: left;
+}
+
+.mainMy .productList .products .rightDiv {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px #000 solid;
+	line-height: 35px;
+}
+
+.mainMy .productList .products .productTime {
+	width: 100%;
+	display: block;
+	background-color: #d7d7d7;
+	font-size: 14px;
+	margin-top: 10px;
+	line-height: 30px;
+	padding-left: 12px;
+}
+
+.mainMy .footer {
+	width: 100%;
+	height: 45px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	border-top: 1px #eee solid;
+}
+
+.mainMy .footer div {
+	display: inline-block;
+	line-height: 45px;
+	text-align: center;
+	width: 49%;
+	height: 45px;
+}
+
+.mainMy .footer div a {
+	color: #000;
+}
+.title-G{
+	    text-align: center;
+    padding: 0px 10px;
+    line-height: 40px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    background: red;
+    font-size: 16px;
+    color: white;
+}
+.title-btns{
+	font-size: 14px;
+}
+.title-G .iconx{
+	font-size: 30px;
+}
+.title-G .iconS{
+	    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 4px 1px;
+    border-radius: 50%;
+}
+.weui-btn_primary {
+    background-color: #00e181;
+}
+.weui-btn_primary:not(.weui-btn_disabled):active {
+    color: hsla(0,0%,100%,.6);
+    background-color: #179b16;
+}
+[v-cloak] {
+	display: none;
+}
+.weui-btn:after{
+	border: 0;
+}
+.toolbar .toolbar-inner{
+	height: 1rem;
+}
+.toolbar .picker-button{
+	height: 1rem;
+    line-height: 1rem;
+}
+.toolbar .title{
+	line-height: 1rem;
+}
+.toolbar, .toolbar .title{
+	font-size: .41rem;
+}

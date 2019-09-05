@@ -1,0 +1,91 @@
+body {
+	background: #f2f2f2;
+	font-size: 0.41rem;
+}
+
+#addBankCard {}
+
+.tab3box {
+	padding-top: 41px;
+}
+
+.card-info {
+	background-color: white;
+	width: 95%;
+	margin: 0rem auto 0.6rem;
+	border-radius: 0.4rem;
+}
+.card-info-title{
+	background-color: white;
+	width: 95%;
+	margin: 0.3rem auto 0.6rem;
+	border-radius: 0.4rem;
+	padding:0 0.5rem;
+}
+.card-info-title>h3{
+	margin: 0.4rem 0;
+}
+.card-info-title>p{
+	text-indent: 2em;
+	margin-bottom: 0.3rem;
+}
+.red{
+	color: red;
+}
+
+.card-info dt {
+	    border-bottom: 0.5px solid #E1E1E1;
+    color: black;
+    font-size: 0.47rem;
+    padding-left: 0.5rem;
+    line-height: 1.2rem;
+    background: #f4e5ea;
+    border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.card-info dd {
+	border-bottom: 0.5px solid #E1E1E1;
+	line-height: 1.6rem;
+	color: #666666;
+	padding: 0 0.5rem;
+}
+
+.card-info dd:last-child {
+	border-bottom: 0px;
+}
+
+.card-info dd>label {
+	width: 30%;
+	margin-right: 0.5rem;
+}
+
+.card-info dd>input {
+	width: 62%;
+	height: 2.4em;
+}
+
+.rise-money {
+	line-height: 1.4em;
+	padding: 0.06rem 0.3rem;
+	border-radius: 0.3rem;
+	font-size: 0.35rem;
+	position: absolute;
+	right: 0.7rem;
+	top: 0.53rem;
+	border: 1px solid #ccc;
+	width: 84px;
+    text-align: center;
+}
+
+.commitBankCard {
+	width: 95%;
+	margin: auto;
+	border-radius: 0.4rem;
+}
+
+.bottom-G{
+	text-align: center;
+	font-size: 0.37rem;
+	color: #666666;
+	margin-top: 0.3rem;
+}

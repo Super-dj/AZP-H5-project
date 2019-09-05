@@ -1,0 +1,68 @@
+*{
+	margin: 0;padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+html,body{
+	height: 100%;
+	
+}
+a{
+	color: #1A47B0;
+}
+.clearfix:before,.clearfix:after{
+	display: table;
+	content: "";
+}
+#box{
+	background: url(../../img/bg2x.png) left top no-repeat;
+	background-size: 100% 100%;
+	height: 100%;
+}
+#box a{
+	display: block;
+	width: 260px;
+	margin: 16px auto;
+	padding: 26px 34px;
+	box-shadow:20px 20px 48px 0px rgba(0,0,0,0.1);
+	border-radius:10px;
+	background:rgba(247,248,251,1);
+	/* margin-bottom: 35px; */
+}
+
+/* #box>a:first-child>p{
+	background: url(../../img/Apple@2x.png) left center no-repeat;
+	background-size: 26px;
+}
+#box>a:nth-child(2)>p{
+	background: url(../../img/Shape@2x.png) left center no-repeat;
+	background-size: 26px;
+} */
+#box a p{
+    text-align: center;
+	/* padding: 2px 0px 2px 38px; */
+	
+}
+.linkClass{
+    vertical-align: bottom;
+    background: rgba(0,24,176,0.7);
+    margin: 10px 10px 0px;
+    border-radius: 10px;
+    padding: 5px 0;
+
+}
+.indexImg{
+    margin: 58px auto 160px;
+    text-align: center; 
+}
+.indexImg img{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}

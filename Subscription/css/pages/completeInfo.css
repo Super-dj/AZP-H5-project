@@ -1,0 +1,96 @@
+body {
+	background: #f2f2f2;
+	font-size: 0.41rem;
+}
+
+#addBankCard {}
+
+.tab3box>div:first-child{
+	margin-top: 0;
+	margin-bottom: 0.6rem;
+	padding: 0.5rem;
+}
+.info-l{
+	margin-top: 0.3rem;
+}
+.info-r{
+	border-radius: 50%;
+    padding: 4px;
+    background: #ccc;
+}
+.info-r>img{
+	    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+
+.card-info {
+	background-color: white;
+	margin: 0.3rem auto 0.3rem;
+}
+.red{
+	color: red;
+	font-size: 0.35rem;
+}
+
+.card-info dt {
+	border-bottom: 0.5px solid #E1E1E1;
+	color: #CCCCCC;
+	font-size: 0.35rem;
+	padding-left: 0.5rem;
+	line-height: 1.2rem;
+}
+
+.card-info dd {
+	border-bottom: 0.5px solid #E1E1E1;
+	line-height: 1.6rem;
+	color: #666666;
+	padding: 0 0.5rem;
+}
+
+.card-info dd:last-child {
+	border-bottom: 0px;
+}
+
+.card-info dd>label {
+	width: 32%;
+	margin-right: 0.5rem;
+}
+
+.card-info dd>input {
+	width: 62%;
+	height: 2.4em;
+}
+.card-info .text{
+	font-size: 0.35rem;
+}
+.text>div{
+	line-height: 1.2rem;
+}
+.text li{
+	line-height: 1.6em;
+	margin: 0.3rem 0 0.6rem;
+}
+
+.rise-money {
+	line-height: 1.4em;
+	padding: 0.06rem 0.3rem;
+	border-radius: 0.3rem;
+	font-size: 0.35rem;
+	position: absolute;
+	right: 0.7rem;
+	top: 0.53rem;
+	border: 1px solid #ccc;
+	width: 84px;
+    text-align: center;
+}
+
+.commitNext {
+	width: 95%;
+	    margin: 0.5rem auto 0.7rem;
+	border-radius: 0.4rem;
+}
+.switchBox{
+    margin-top: 0.12rem;
+    margin-right: 0.5rem;
+}

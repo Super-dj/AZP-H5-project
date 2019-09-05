@@ -1,0 +1,264 @@
+body {
+    background: #f2f2f2;
+    font-size: 0.41rem;
+}
+
+#addBankCard {}
+
+.tab3box {
+    padding-top: 40px;
+}
+
+.search-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.search-box-grey {
+    /*background-color: rgba(0,0,0,0.5);*/
+}
+
+.search-model {
+    width: 75%;
+    background: white;
+    position: relative;
+    top: 0;
+    left: 75%;
+    color: black;
+    text-align: left;
+    font-size: 0.41rem;
+    line-height: 1.6em;
+    box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.weui-search-bar__cancel-btn {
+    color: red;
+}
+
+.weui-search-bar {
+    background: white;
+}
+
+.weui-search-bar:after,
+.weui-search-bar:before {
+    content: none;
+}
+
+#searchBar {
+    margin: 0.3rem 0rem;
+}
+
+#searchBtn {
+    width: 90%;
+    margin: 0.2rem auto 0.3rem;
+}
+
+.mypaginationBox {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+
+.swiper-slide>span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: 10px;
+    right: 10px;
+    width: auto;
+    left: auto;
+    color: white;
+}
+
+.card-info {
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.card-info-title>h3 {
+    margin: 0.4rem 0;
+}
+
+.card-info-title>p {
+    text-indent: 2em;
+    margin-bottom: 0.3rem;
+}
+
+.red {
+    color: red;
+}
+
+.card-info dt {
+    border-bottom: 0.5px solid #E1E1E1;
+    color: black;
+    font-size: 0.47rem;
+    padding: 0 0.5rem;
+    line-height: 1.2rem;
+    background: #f4e5ea;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info .loansapply {
+    display: block;
+    font-size: 12px;
+    background: red;
+    border: 0;
+    outline: none;
+    color: white;
+    margin: 0.2rem 0;
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.1rem;
+
+    vertical-align: middle;
+
+}
+
+.card-info .loansapply img {
+
+    width: 16px;
+    height: auto;
+}
+
+.card-info dd {
+    border-bottom: 0.5px solid #E1E1E1;
+    color: #666666;
+    background: #fff;
+}
+
+.card-info dd:last-child {
+    border-bottom: 0px;
+}
+
+.media-m {
+    flex: 2 !important;
+}
+
+.media-r {
+    font-size: 0.35rem;
+    text-align: right;
+    margin-right: 0.2rem;
+    flex: 1 !important;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-around;
+    background: #f4e5ea;
+    padding: 0.3rem 0;
+}
+
+.weui-select {
+    -webkit-appearance: none;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    width: auto;
+    font-size: inherit;
+    height: auto;
+    line-height: 1.6em;
+    position: relative;
+    z-index: 1;
+    padding: 0 2%;
+}
+
+.btn-G {
+    background: red;
+    border: 0;
+    outline: none;
+    color: white;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.2rem;
+    width: 90px;
+}
+
+
+.bottom-G {
+    text-align: center;
+    font-size: 0.37rem;
+    color: #666666;
+    margin-top: 0.3rem;
+}
+
+.disablegrey {
+    background: gainsboro;
+}
+
+.media-r button {
+    font-size: 11px;
+    background: red;
+    border: 0;
+    outline: none;
+    color: white;
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.1rem;
+    width: 65px;
+    vertical-align: middle;
+}
+
+.weui-media-box_applyState {
+    text-indent: 14px;
+    font-size: 11px;
+    padding-bottom: 5px;
+}
+
+.nocontent-icon {
+    padding: 30px 0;
+    text-align: center;
+
+}
+
+.apply_button {
+    background: #e64340;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.25rem 0;
+    border-radius: 0.4rem;
+    margin-top:2rem;
+}
+
+.access {
+    padding: 12px 15px 0 !important;
+
+}
+
+.weui-cell_access {
+    padding: 8px 15px 3px !important;
+
+}
+
+.ddflex {
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center
+}
+
+.flexmess {
+    flex-grow: 2
+}
+
+.flexicon {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.flexicon i {
+    padding-right: 15px;
+}
