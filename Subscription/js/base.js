@@ -22,10 +22,6 @@ window.GLOBAL_CONFIG = {
 
 /*后台地址*/
 window.HOST_CONFIG = "http://demo.jsruiyin.com/yxpt/"; //内网测试
-//window.HOST_CONFIG = 'http://192.168.241.219:8080/'; //张凡
-//window.HOST_CONFIG = 'http://192.168.241.147:8090/jkfq/'; //解志坚
-//window.HOST_CONFIG = 'http://192.168.241.131:9090/yxpt/'; //倪海岩
-//window.HOST_CONFIG = 'https://www.gnnsyh.com/yxpt/'; //生产环境
 window.USER = 'common';
 //window.USER = 'master';
 

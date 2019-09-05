@@ -4,7 +4,7 @@ $(document).ready(function () {
   //组装头部信息
   ajaxHeader = {
     Accept: "application/json; charset=utf-8",
-  }
+  };
 
   window.location.href = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=${"wxd7c3a18373458be7"}&redirect_uri=${encodeURIComponent(lastPageUrl)}&response_type=json&scope=snsapi_userinfo&state=STATE#wechat_redirect`
 

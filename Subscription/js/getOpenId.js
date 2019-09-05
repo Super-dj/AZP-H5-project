@@ -8,8 +8,8 @@ var getOpenId=(function(){
 		}else{
 			url= encodeURIComponent(wxconfig.devWWW+page);
 		}
-		
-		window.location.href = 'https://open.weixin.qq.com/connect/oauth2/authorize?' + 
+
+		window.location.href = 'https://open.weixin.qq.com/connect/oauth2/authorize?' +
 		'appid='+wxconfig.appId+'&redirect_uri='+ url
 		+ '&response_type=code&scope=snsapi_userinfo&state='+baseJs.GetQueryString("id", "")+'#wechat_redirect';
 	}
@@ -34,15 +34,15 @@ var getOpenId=(function(){
 				$.toast('服务器异常，请稍后重试');
 			})
 		}
-		
-		
-		
+
+
+
 //		this.$axios.get("/weChat/wxMessage/getOpenId", {
 //		params: {
 //			code:_this.getQueryString("code")
 //		}
 //		})
-//		.then(function(data) {	
+//		.then(function(data) {
 ////					debugger
 //			console.log(data);
 //			_this.openId = data.data.openId
@@ -51,9 +51,9 @@ var getOpenId=(function(){
 //		.catch(function(err) {
 //			console.log(err)
 //		});
-//				
+//
 	}
-	
+
 	return {
 		init:function(){
 			if(window.USER=="master"){
@@ -69,10 +69,11 @@ var getOpenId=(function(){
 //				eval(handleApiName+".init('oBHlH568ndCcclAtaw26rr3C0FXs')");
 				eval(handleApiName+".init('oBHlH56Avwbl9GsjCIwQhtsQfccc')");
 			}
-			
+
 		}
-		
+
 	}
-}())
-getOpenId.init()
+}());
+getOpenId.init();
+// 获取token
 

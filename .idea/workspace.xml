@@ -2,70 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86d0ed18-6113-4459-8985-505705097439" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Subscription/css/assemble.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/assemble.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/iconfontRate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/iconfontapply.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/jquery_weui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/page_less/common.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/applyCreditCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/applyCreditCardQuery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/bankCardQuery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/bankPointDetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/bankPointQuery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/completeInfo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/creditCardDetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/downloadEloadPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/downloadIndex.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/downloadPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/internalStaffBinding.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/loanDetail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/loansApointment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/loansApointmentQuery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/pages/merchantEvaluate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/css/weui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/html/pages/other/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/Apple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/Shape@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/backarr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/bg2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/bg@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/bg@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/cardxx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/deer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/erweimaicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/favor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/favor_fill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/goarr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/jia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/loadimg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/nav-app-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/nav-app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/nav-index-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/nav-index-active1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/nav-my-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/img/nav-my.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/WXconfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/configSubpackage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/getOpenId.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/jquery-weui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/pages/buyer/buyer_index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/pages/other/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/rem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/swiper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Subscription/js/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subscription/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/Subscription/js/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subscription/js/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/Subscription/js/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subscription/js/getOpenId.js" beforeDir="false" afterPath="$PROJECT_DIR$/Subscription/js/getOpenId.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subscription/js/pages/other/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/Subscription/js/pages/other/login.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,76 +17,96 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="619942322">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="28" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8953202">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Subscription/html/pages/buyer/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="325">
-                  <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Subscription/css/page_less/common.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Subscription/html/pages/other/login.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Subscription/js/pages/other/login.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="8" column="174" selection-start-line="8" selection-start-column="170" selection-end-line="8" selection-end-column="174" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Subscription/js/base.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-75">
-                  <caret column="10" selection-start-column="4" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/env.js">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Subscription/js/configSubpackage.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="625">
-                  <caret line="28" column="44" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="44" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Subscription/js/configSubpackage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="848">
+              <caret line="53" column="30" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Subscription/js/getOpenId.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="24" />
+              <folding>
+                <element signature="e#66#619#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Subscription/js/WXconfig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Subscription/html/pages/buyer/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Subscription/css/page_less/common.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Subscription/js/pages/other/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -173,18 +134,26 @@
         <option value="$PROJECT_DIR$/css/page_less/common.less" />
         <option value="$PROJECT_DIR$/js/pages/buyer/buyer_index.js" />
         <option value="$PROJECT_DIR$/js/WXconfig.js" />
-        <option value="$PROJECT_DIR$/Subscription/js/base.js" />
         <option value="$PROJECT_DIR$/Subscription/js/configSubpackage.js" />
         <option value="$PROJECT_DIR$/Subscription/js/pages/buyer/buyer_index.js" />
         <option value="$PROJECT_DIR$/Subscription/html/pages/other/login.html" />
+        <option value="$PROJECT_DIR$/Subscription/js/base.js" />
+        <option value="$PROJECT_DIR$/Subscription/js/data.js" />
+        <option value="$PROJECT_DIR$/Subscription/js/getOpenId.js" />
         <option value="$PROJECT_DIR$/Subscription/js/pages/other/login.js" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -255,7 +224,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/WeChat Files/dj1715461621/FileStorage/File/2019-09/guanNanNongShang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -281,7 +250,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="dev" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -309,20 +278,21 @@
       <updated>1567670520365</updated>
       <workItem from="1567670523591" duration="268000" />
       <workItem from="1567670911603" duration="11494000" />
+      <workItem from="1567687811755" duration="3425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11762000" />
+    <option name="totallyTimeSpent" value="15187000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" sideWeight="0.3106796" side_tool="true" weight="0.24973656" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6893204" visible="true" weight="0.14383562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" sideWeight="0.3106796" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
@@ -362,57 +332,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FTRouter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#75#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/FTStudy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/src/FTRouter.js" />
+    <entry file="file://$PROJECT_DIR$/src/router/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/router/FTStudy.js" />
     <entry file="file://$PROJECT_DIR$/Subscription/img/1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/applyCreditCardQuery.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/bankPointQuery.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/pages/loanDetail.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/applyCreditCard.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/applyCreditCardQuery.html" />
+    <entry file="file://$PROJECT_DIR$/html/pages/bankPointQuery.html" />
+    <entry file="file://$PROJECT_DIR$/js/pages/loanDetail.js" />
+    <entry file="file://$PROJECT_DIR$/html/pages/applyCreditCard.html" />
     <entry file="file://$PROJECT_DIR$/Subscription/css/assemble.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5025" />
@@ -452,22 +387,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Subscription/js/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Subscription/js/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7575">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/env.js.develop.example">
       <provider selected="true" editor-type-id="text-editor" />
@@ -482,42 +402,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Subscription/js/configSubpackage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Subscription/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret column="10" selection-start-column="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Subscription/js/WXconfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding>
-            <element signature="e#50#941#0" />
-            <element signature="e#968#1037#0" />
-            <element signature="e#1069#1192#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Subscription/html/pages/buyer/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/env.js" />
     <entry file="file://$PROJECT_DIR$/Subscription/js/jquery-weui.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -531,20 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Subscription/css/page_less/common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Subscription/html/pages/other/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -552,10 +423,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Subscription/html/pages/buyer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subscription/js/WXconfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subscription/html/pages/other/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subscription/css/page_less/common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subscription/js/getOpenId.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#66#619#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subscription/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subscription/js/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8976">
+          <caret line="564" lean-forward="true" selection-start-line="564" selection-end-line="564" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Subscription/js/pages/other/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="174" selection-start-line="8" selection-start-column="170" selection-end-line="8" selection-end-column="174" />
+        <state relative-caret-position="96">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Subscription/js/configSubpackage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="30" />
         </state>
       </provider>
     </entry>

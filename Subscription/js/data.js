@@ -561,3 +561,4 @@
     getMerchantInfo: getMerchantInfo
   };
 })(window);
+// 将请求方法挂载到window
